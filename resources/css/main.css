@@ -40,8 +40,8 @@ body {
     /*Menlo, Monaco, monospace*/
     font-size: 14px;
     line-height: 1.5;
-    color: #f0fff0;
-    background-color: #578;
+    color: #333;
+    background-color: #fff;
 }
 p {
     margin: 0 0 20px;
@@ -61,7 +61,7 @@ h1, h2, h3, h4 {
     margin: 30px 0 20px;
     font-weight: bold;
     line-height: 1.1;
-    color: #ff9933;
+    color: #555;
     text-rendering: optimizeLegibility;
 }
 h2:before, h3:before, h4:before {
@@ -109,7 +109,7 @@ i:before, i:after, em:before, em:after {
 hr {
     margin: 0;
     border: 0;
-    border-bottom: 1px solid #e2e3e4;
+    border-bottom: 1px solid #336699;
 }
 
 ul, ol {
@@ -193,7 +193,7 @@ img {
 a {
     font-weight: inherit;
     line-height: inherit;
-    color: #ffff00;
+    color: #0000ff;
     text-decoration: none;
 }
 sup a:before {
@@ -204,7 +204,7 @@ sup a:after {
 }
 a:hover {
     text-decoration: underline;
-    color: #00ffff;
+    color: #0066ff;
 }
 table {
     line-height: 2.5;
@@ -233,17 +233,14 @@ table th.right, table td.right {
 }
 /* head */
 .masthead {
-    color: #ada;
+    color: #59b;
     border-bottom: 1px solid #e2e3e4;
 }
 
 .masthead a {
-    color: #ffff00;
+    color: #000066;
 }
-.masthead a:hover {
-    text-decoration: underline;
-    color: #00ffff;
-}
+
 .masthead ul {
   list-style: none;
   margin: 8px 0;
@@ -254,7 +251,7 @@ table th.right, table td.right {
 .masthead li + li:before {
     display: inline-block;
     content: "\00B7 \00a0";
-    color: #cfc;
+    color: #000;
 }
 
 /*site-nav*/
@@ -409,7 +406,7 @@ table th.right, table td.right {
     margin: 80px 0 0;
     text-align: center;
     font-size: 15px;
-    color: #cfc;
+    color: #999;
 }
 .footer > p {
     margin: 0;
