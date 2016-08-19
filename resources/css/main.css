@@ -41,7 +41,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
     color: #f0fff0;
-    background-color: #1090c0;
+    background-color: #578;
 }
 p {
     margin: 0 0 20px;
@@ -123,7 +123,7 @@ code, pre {
 }
 .underline {
     text-decoration: underline;
-    color: #3aff3a;     
+    color: #3aff3a;
 }
 .underline:before, .underline:after {
     content: "_";
@@ -364,21 +364,21 @@ table th.right, table td.right {
     text-align: center;
     /* ensure doesn't flow off the screen when expanded */
     max-height: 80%;
-    overflow: auto; 
+    overflow: auto;
     z-index: 200;
 }
 
 #table-of-contents h2 {
-    
+
     max-width: 20em;
     font-weight: normal;
     padding-left: 0.5em;
     padding-top: 0.05em;
-    padding-bottom: 0.05em; 
+    padding-bottom: 0.05em;
 }
 
 #table-of-contents ul {
-    margin-left: 14pt; 
+    margin-left: 14pt;
     margin-bottom: 10pt;
     padding: 0
 }
@@ -401,7 +401,7 @@ table th.right, table td.right {
 #table-of-contents:hover #text-table-of-contents {
     display: block;
     padding: 0.5em;
-    margin-top: -1.5em; 
+    margin-top: -1.5em;
 }
 
 
@@ -427,7 +427,7 @@ table th.right, table td.right {
    -------------------------------------------------- */
 
 /* site-nav*/
-@media screen and (max-width: 512px) {    
+@media screen and (max-width: 512px) {
   .site-nav {border-top: 1px solid #e8e8e8; text-align: left; }
   .site-nav .menu-icon { display: block; width: 36px; height: 21px; line-height: 0; margin-top: 10px; margin-bottom: 5px; text-align: center;
                          }
