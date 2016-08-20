@@ -322,7 +322,8 @@ table th.right, table td.right {
 .post ol > li:before {
     content: counter(o-list) ") ";
     counter-increment: o-list;
-    color: #cfc;
+    color: #555;
+    font-weight: bold;
 }
 
 /* special for li in pre */
@@ -337,8 +338,8 @@ table th.right, table td.right {
 /* meta info */
 .post-info {
     display: inline-block;
-    margin: -10px 0 -10px;
-    color: #ffff00;
+    font-size: 15px;
+    color: #777;
 }
 .post-info + .post-info:before {
     content: "\2223 \00a0";

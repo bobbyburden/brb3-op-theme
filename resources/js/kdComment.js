@@ -1,19 +1,5 @@
 //(require 'jquery)
 
-/* comments */
-var kd_disqus_thread=$('#disqus_thread');
-var ds_label=$('.ds-thread');
-
-$('.disqus_label').click(function(){
-    kd_disqus_thread.show();
-    ds_label.hide();
-});
-
-$('.ds-label').click(function(){
-    kd_disqus_thread.hide();
-    ds_label.show();
-});
-
 /* navigate */
 window.kd_toc = $('#text-table-of-contents ul li');
 window.kd_n = 0;
@@ -118,7 +104,7 @@ ls_init();
 
 /* change style*/
 
-$('.post-meta').insertAfter('.title').css('margin-bottom','15px').css('text-align','center');
+$('.post-meta').insertAfter('.title')
 
 if(window.innerHeight > document.body.clientHeight){
     $('.container').addClass("centerVertical");
