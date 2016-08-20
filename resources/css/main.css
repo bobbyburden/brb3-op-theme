@@ -51,10 +51,16 @@ p {
     margin-bottom: 20px;
 }
 h1 {
-    font-size:20px;
+    font-size: 20px;
 }
-h2, h3, h4 {
-    font-size:18px;
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 16px;
+}
+h4 {
+    font-size: 14px;
 }
 h1, h2, h3, h4 {
     position: relative;
@@ -67,7 +73,7 @@ h1, h2, h3, h4 {
 h2:before, h3:before, h4:before {
     position: absolute;
     top: auto;
-    color: #cfc;
+    color: #999;
     display: inline;
 }
 h2:before {
@@ -96,16 +102,12 @@ i, em, b, strong {
     padding-left: .1em;
     padding-right: .1em;
 }
+
 b, strong {
     font-weight: bold;
     color: #00ffff;
 }
-b:before, b:after, strong:before, strong:after {
-    content: "*";
-}
-i:before, i:after, em:before, em:after {
-    content: "/";
-}
+
 hr {
     margin: 0;
     border: 0;
@@ -118,25 +120,16 @@ ul, ol {
 }
 code, pre {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .underline {
     text-decoration: underline;
-    color: #3aff3a;
 }
-.underline:before, .underline:after {
-    content: "_";
-    color: #3aff3a;
-}
+
 code {
-    background: #008f0f;
-    border-radius: 5px;
-    color: #ffa0f0;
+    color: #59b;
 }
-code:before, code:after {
-    content: "=";
-    color: #cfc;
-}
+
 pre {
     display: block;
     margin: 0 0 14px;
@@ -312,9 +305,9 @@ table th.right, table td.right {
     list-style: none outside none;
 }
 .post ul > li:before {
-    content: "- ";
+    content: "-  ";
     margin-left: -0.25em;
-    color: #cfc;
+    color: #999;
 }
 .post ol {
     counter-reset: o-list;
